@@ -72,4 +72,4 @@ function Disciplinas() {
   );
 }
 
-export default Disciplinas; 
+export default Disciplinas;

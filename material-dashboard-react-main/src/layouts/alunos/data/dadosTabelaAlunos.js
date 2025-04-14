@@ -24,7 +24,6 @@ import MDBadge from "components/MDBadge";
 // GitHub Avatar URLs
 const igorAvatar = "https://avatars.githubusercontent.com/u/64588244?v=4";
 const juniorAvatar = "https://avatars.githubusercontent.com/u/69211250?v=4";
-const rayaneAvatar = "https://avatars.githubusercontent.com/u/110859172?v=4";
 
 export default function data() {
   const Aluno = ({ image, name, email }) => (
@@ -92,31 +91,6 @@ export default function data() {
           />
         ),
         funcao: <Funcao title="Líder" description="UFCG" />,
-        status: (
-          <MDBox ml={-1}>
-            <MDBadge badgeContent="ativo" color="success" variant="gradient" size="sm" />
-          </MDBox>
-        ),
-        data_inicial: (
-          <MDTypography component="a" href="#" variant="caption" color="text" fontWeight="medium">
-            08/05/2025
-          </MDTypography>
-        ),
-        acao: (
-          <MDTypography component="a" href="#" variant="caption" color="text" fontWeight="medium">
-            Edit
-          </MDTypography>
-        ),
-      },
-      {
-        aluno: (
-          <Aluno
-            image={rayaneAvatar}
-            name="Rayane Bezerra da Silva"
-            email="rayane.silva@ccc.ufcg.edu.br"
-          />
-        ),
-        funcao: <Funcao title="Desenvolvedora Back-end" description="UFCG" />,
         status: (
           <MDBox ml={-1}>
             <MDBadge badgeContent="ativo" color="success" variant="gradient" size="sm" />
